@@ -1,8 +1,11 @@
 
+import { Features } from 'tailwindcss'
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Technology from './components/Technology'
+import FeatureSection from './components/FeatureSection'
+
 
 function App() {
 
@@ -28,6 +31,7 @@ function App() {
         <Navbar />
         <Hero />
         <Technology />
+        <FeatureSection />
       </div>
     </main>
 
