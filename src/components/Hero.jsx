@@ -4,8 +4,9 @@ import heroImage from '../assets/HeroImage Without BG.gif'
 
 const Hero = () => {
   return (
-    <section className='container flex flex-col md:flex-row justify-between items-center mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8'>
-        
+    // <section id='home' className='container flex flex-col md:flex-row justify-between items-center mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8'>
+    <section id='home' className='min-h-screen container flex flex-col md:flex-row justify-between items-center mx-auto py-20 pb-6 px-4 sm:px-6 lg:px-8'>
+    
         {/* left col */}
         <div className='w-full md:w-1/2 space-y-8'>
             {/* busy section */}
@@ -42,8 +43,6 @@ const Hero = () => {
                 <img src={heroImage} alt='Hero Image' className='rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300' />
             </div>
         </div>
-
-
     </section>
   )
 }

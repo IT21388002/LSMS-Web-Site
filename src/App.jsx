@@ -2,6 +2,7 @@
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Technology from './components/Technology'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <div className='overflow-hidden'>
         <Navbar />
         <Hero />
+        <Technology />
       </div>
     </main>
 
