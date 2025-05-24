@@ -9,6 +9,7 @@ import Getintouch from './components/Getintouch'
 import Domain from './components/Domain'
 import Milestones from './components/Milestones'
 import About from './components/About'
+import Presentations from './components/Presentations'
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Hero />
         {/* <Technology /> */}
         <Milestones />
+        <Presentations />
         <FeatureSection />
         <About />
         <Domain />
