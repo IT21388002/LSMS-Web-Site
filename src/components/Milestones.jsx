@@ -4,7 +4,7 @@ import circle from '../assets/Circle.jpg';
 
 const timelineData = [
   {
-    title: 'HTML',
+    title: 'Project Proposal',
     date: '2023 - 2024',
     company: '[ Company Name ]',
     description:

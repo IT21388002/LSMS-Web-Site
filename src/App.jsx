@@ -8,6 +8,7 @@ import FeatureSection from './components/FeatureSection'
 import Getintouch from './components/Getintouch'
 import Domain from './components/Domain'
 import Milestones from './components/Milestones'
+import About from './components/About'
 
 
 
@@ -37,6 +38,7 @@ function App() {
         {/* <Technology /> */}
         <Milestones />
         <FeatureSection />
+        <About />
         <Domain />
         <Getintouch />
       </div>
