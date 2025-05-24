@@ -3,10 +3,12 @@ import { Features } from 'tailwindcss'
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Technology from './components/Technology'
+// import Technology from './components/Technology'
 import FeatureSection from './components/FeatureSection'
 import Getintouch from './components/Getintouch'
 import Domain from './components/Domain'
+import Milestones from './components/Milestones'
+
 
 
 function App() {
@@ -32,7 +34,8 @@ function App() {
       <div className='overflow-hidden'>
         <Navbar />
         <Hero />
-        <Technology />
+        {/* <Technology /> */}
+        <Milestones />
         <FeatureSection />
         <Domain />
         <Getintouch />
