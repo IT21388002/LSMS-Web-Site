@@ -10,6 +10,7 @@ import Domain from './components/Domain'
 import Milestones from './components/Milestones'
 import About from './components/About'
 import Presentations from './components/Presentations'
+import Documents from './components/Documents'
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Presentations />
         <FeatureSection />
         <About />
+        <Documents />
         <Domain />
         <Getintouch />
       </div>
