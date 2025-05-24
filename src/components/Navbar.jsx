@@ -16,7 +16,6 @@ const Navbar = () => {
         {href: "#documents", label: "Documents"},
         {href: "#presantations", label: "Presentations"},
         {href: "#about", label: "About us"},
-        {href: "#contact", label: "Get in touch"},
     ]
 
     return (
