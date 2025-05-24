@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Technology from './components/Technology'
 import FeatureSection from './components/FeatureSection'
+import Getintouch from './components/Getintouch'
+import Domain from './components/Domain'
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <Hero />
         <Technology />
         <FeatureSection />
+        <Domain />
+        <Getintouch />
       </div>
     </main>
 

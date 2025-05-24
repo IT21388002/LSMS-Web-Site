@@ -7,6 +7,7 @@ const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [activeLink, setActiveLink] = useState('#home')
+    
 
     const navLinks = [
         {href: "#home", label: "Home"},
@@ -15,6 +16,7 @@ const Navbar = () => {
         {href: "#documents", label: "Documents"},
         {href: "#presantations", label: "Presentations"},
         {href: "#about", label: "About us"},
+        {href: "#contact", label: "Get in touch"},
     ]
 
     return (
@@ -50,7 +52,7 @@ const Navbar = () => {
                 {/* get in touch */}
                 <button className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 font-medium text-sm
                 transition-all hover:shadow-lg hover:shadow-blue-100">
-                    <a href="#newsLetter">Get in touch</a>
+                    <a href="#contact">Get in touch</a>
                 </button>
 
             </div>
