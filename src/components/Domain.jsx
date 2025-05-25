@@ -2,8 +2,14 @@
 import React, { useState } from 'react';
 import python from '../assets/python.png';
 import colab from '../assets/colab.png';
-import vscode from '../assets/vscode.png';
+import vscode from '../assets/vscodeLogo.png';
 import firebase from '../assets/firebase.png';
+import fastapilogo from '../assets/fastApi.png';
+import googlevisioapi from '../assets/googleVision.jpg';
+import github from '../assets/github.png';
+import android from '../assets/Android Studio.png';
+import dart from '../assets/Dart.jpeg';
+
 
 // ✅ Define TechLogo component
 const TechLogo = ({ src, label }) => (
@@ -15,11 +21,16 @@ const TechLogo = ({ src, label }) => (
 
 // ✅ Technologies content
 const technologiesContent = (
-  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 place-items-center">
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 place-items-center">
     <TechLogo src={vscode} label="Visual Studio Code" />
     <TechLogo src={python} label="Python" />
     <TechLogo src={colab} label="Google Colaboratory" />
     <TechLogo src={firebase} label="Firebase" />
+    <TechLogo src={fastapilogo} label="Fast API" />
+    <TechLogo src={googlevisioapi} label="Google Vision API" />
+    <TechLogo src={github} label="Git Hub" />
+    <TechLogo src={android} label="Android Studio" />
+    <TechLogo src={dart} label="Dart" />
   </div>
 );
 
@@ -45,8 +56,51 @@ Another issue that arises is the absence of legal knowledge hubs in existing sys
 A survey was undertaken among members of the legal community, specifically legal professionals such as law students and lawyers, to identify the unique issues they face in their day-to-day professional activities.`
   },
   { label: 'Research Gap', key: 'gap', content: `Content for Research Gap goes here.` },
-  { label: 'Research Objective', key: 'objective', content: `Content for Research Objective goes here.` },
-  { label: 'Methodology', key: 'methodology', content: `Content for Methodology goes here.` },
+  {
+    label: 'Research Objective',
+    key: 'objective',
+    content: (
+      <div className="space-y-4">
+        <p><strong><u>Main Objective</u></strong></p>
+        <p>
+          The main objective of this research is to develop an intelligent <strong>Lifestyle Management System (LMS)</strong> that helps individuals predict disease risks and manage their health more effectively using personal data such as blood test results, height, and weight. The system aims to automate data extraction from medical reports using OCR and apply machine learning algorithms to generate personalized meal plans, exercise routines, and stress management recommendations, specifically tailored for individuals aged 18 to 40.
+        </p>
+
+        <p><strong><u>Specific Objectives</u></strong></p>
+        <ul className="list-disc list-inside space-y-2">
+          <li>
+            <strong><u>Identifying Diseases</u></strong><br />
+            In this process, the user's blood test data is used to identify various disease risk levels. The user is informed in detail about the disease risk level by analyzing various parameters (e.g., cholesterol level, sugar level, hemoglobin). This provides basic information to take preventive measures and assists in scheduling tests and obtaining advice.
+          </li>
+
+          <li>
+            <strong><u>Getting an Exercise Schedule</u></strong><br />
+            This section involves setting up an exercise schedule most suitable for the user based on BMI (body mass index) and calorie burn. According to the user's physical condition and health needs, the exercise type, time, and dose are suggested. This helps maintain body stability and promote healthy strengthening.
+          </li>
+
+          <li>
+            <strong><u>Get a Meal Plan Recipe</u></strong><br />
+            In this section, the user is given a personalized meal plan based on their preferences and health needs, based on their height, weight, and blood pressure data. This helps provide the user with the right amount of nutrition and reduces the risk of health problems. The meal plan is updated daily, weekly, and monthly, providing a comfortable way for the user.
+          </li>
+
+          <li>
+            <strong><u>Managing Stress</u></strong><br />
+            In this section, the user's stress level is measured, notified, and advised accordingly. Various data collection methods are used to identify the stress level. The user is given the right stress management strategies, relaxation techniques, and stress-reducing activities. This is necessary for leading a healthy and peaceful life.
+          </li>
+        </ul>
+      </div>
+    )
+  },
+
+
+  { label: 'Methodology',
+     key: 'methodology',
+     content: `METHODOLOGY
+
+     The methodology of this project focuses on developing an intelligent, user-friendly mobile application that integrates machine learning and OCR technologies to predict disease risk, suggest personalized meal plans and exercise schedules, and provide stress management support. The system architecture follows a modular Model-View-Controller (MVC) design, ensuring maintainability and scalability. Initially, a thorough requirement analysis and literature review were conducted to identify gaps in existing systems, such as reliance on manual data input, lack of multi-disease prediction, and limited personalization. Publicly available datasets related to diabetes, cardiovascular diseases, and anemia were collected from sources like Kaggle and the UCI Repository. These datasets included key health indicators such as blood glucose, cholesterol, hemoglobin, blood pressure, BMI, and age.
+     
+     Data preprocessing involved handling missing values, outlier removal, normalization, and categorical encoding. Statistical methods like the Chi-square test and ANOVA were used for feature selection. Multiple machine learning models including Logistic Regression, Random Forest, K-Nearest Neighbors, Support Vector Machine, and Decision Tree were trained and tested using an 80/20 train-test split. Random Forest delivered the highest accuracy and was used for final deployment. The disease prediction model was integrated with the Google Cloud Vision API, which extracts data from uploaded blood report images or PDFs using OCR. This eliminated the need for manual data entry and improved accessibility. Extracted data was parsed, validated, and fed into the trained model to assess disease risk levels in real-time, which are presented to users in a simple, interpretable format.` 
+  },
   { label: 'Technology', key: 'technology', content: technologiesContent }
 ];
 
