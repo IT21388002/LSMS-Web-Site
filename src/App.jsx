@@ -37,13 +37,12 @@ function App() {
       <div className='overflow-hidden'>
         <Navbar />
         <Hero />
-        {/* <Technology /> */}
-        <Milestones />
-        <Presentations />
-        <FeatureSection />
-        <About />
-        <Documents />
         <Domain />
+        <Milestones />
+        <Documents />
+        <Presentations />
+        <About />        
+        <FeatureSection />
         <Getintouch />
       </div>
     </main>

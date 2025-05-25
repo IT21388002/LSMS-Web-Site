@@ -23,7 +23,7 @@ const presentations = [
   {
     title: 'Final presentation',
     description: '100% Completion with deployed Solution',
-    icon: '🏁📦',
+    icon: '🚩💹',
     link: 'https://drive.google.com/your-final-link',
   },
 ];
