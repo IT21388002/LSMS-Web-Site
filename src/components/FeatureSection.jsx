@@ -16,12 +16,12 @@ const features = [
     {
         icon: "🏃🏻",
         title: "Exercise Shecdule",
-        description: "we can exercise shedule and we can track your daily exercise rooting"
+        description: "we provide exercise shedule and we can track your daily exercise rooting"
     },
     {
         icon: "🤕",
         title: "Stress Management",
-        description: "we can identify your Stress level and suggest for activities manage your stress"
+        description: "we can identify your Stress level and suggest activities for manage your stress"
     },
 ]
 

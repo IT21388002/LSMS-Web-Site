@@ -4,59 +4,59 @@ import emailIcon from '../assets/email.png';
 
 const teamMembers = [
   {
-    name: 'Dr. Janaka Wijekoon',
+    name: 'Ms. Thamali Kelegama',
     role: 'Supervisor',
     institution: 'Sri Lanka Institute of Information Technology',
-    department: 'Information Systems Engineering',
-    gscholar: '#',
-    email: 'mailto:janaka@example.com',
+    department: 'Lecturer - Information Technology',
+    gscholar: 'https://scholar.google.com/citations?hl=en&authuser=1&user=iboExbsAAAAJ',
+    email: 'mailto:thamali.k@sliit.lk',
     image: '/src/assets/thamalik.jpg',
   },
   {
-    name: 'Poorna',
+    name: 'Ms. Poorna Panduwawala',
     role: 'Co-Supervisor',
     institution: 'Sri Lanka Institute of Information Technology',
-    department: 'Information Systems Engineering',
-    gscholar: '#',
-    email: 'mailto:poorna@example.com',
+    department: 'Assistant Lecturer - Information Technology',
+    gscholar: 'https://scholar.google.ca/citations?hl=en&view_op=list_works&gmla=AJsN-F7VN1iN0wgI6jwF6KgkPIdPZNfG506pdFZTVi-cRpTKf67NGL78jphpsosIKVSWQRcgXSSaDAcmeH9JPR3yGDHuXWyx8w&user=QuqSf5oAAAAJ',
+    email: 'mailto:poorna.p@sliit.lk',
     image: '/src/assets/poornap.jpeg',
   },
   {
     name: 'Dr. Bandularathne',
     role: 'External Supervisor',
-    institution: 'Sri Lanka Institute of Information Technology',
-    department: 'Information Systems Engineering',
-    gscholar: '#',
+    institution: 'District Hospital - Weligama',
+    department: 'Doctor',
+    // gscholar: '#',
     email: 'mailto:bandula@example.com',
-    image: '/src/assets/images (1).jpeg',
+    image: '/src/assets/doctor.png',
   },
   {
-    name: 'Vidhanaarachchi S.P',
-    role: 'Group Leader',
-    image: '/src/assets/images (1).jpeg',
-    linkedin: '#',
-    email: 'mailto:pawara@example.com',
-  },
-  {
-    name: 'Gunasekara R.P.T.I',
+    name: 'Hasamal M.A.P.',
     role: 'Group Member',
-    image: '/src/assets/images (1).jpeg',
-    linkedin: '#',
-    email: 'mailto:gunasekara@example.com',
+    image: '/src/assets/pawara.jpg',
+    linkedin: 'http://www.linkedin.com/in/pawara-hasamal-258609218',
+    email: 'mailto:pawarahasamal22@gmail.com',
   },
   {
-    name: 'Akalanka P.K.G.C',
+    name: 'Jayathissa K.A.D.S.S.',
     role: 'Group Member',
-    image: '/src/assets/images (1).jpeg',
+    image: '/src/assets/shakya.jpg',
+    linkedin: 'http://www.linkedin.com/in/shakya-sithumini-98aa79217',
+    email: 'mailto:shakyasithumini2@gmail.com',
+  },
+  {
+    name: 'Dasanayaka D.M.U.H.',
+    role: 'Group Member',
+    image: '/src/assets/Uresha.jpg',
     linkedin: '#',
     email: 'mailto:akalanka@example.com',
   },
   {
-    name: 'Rajapaksha H.M.U.D',
+    name: 'Dhananjaya A.K.G.S.',
     role: 'Group Member',
-    image: '/src/assets/images (1).jpeg',
-    linkedin: '#',
-    email: 'mailto:rajapaksha@example.com',
+    image: '/src/assets/samitha.jpg',
+    linkedin: 'https://www.linkedin.com/in/samitha-dhananjaya-039823273/ ',
+    email: 'mailto:dhananjayasamitha68@gmail.com  ',
   },
 ];
 
@@ -123,7 +123,7 @@ const About = () => {
                 </span>
                 <p className="text-sm text-gray-600 mt-2">Undergraduate</p>
                 <p className="text-sm text-gray-600">Sri Lanka Institute of Information Technology</p>
-                <p className="text-sm text-gray-600">Department of Software Engineering</p>
+                <p className="text-sm text-gray-600">Department of Information Technology</p>
                 <div className="flex justify-center gap-4 mt-4">
                   <a
                     href={member.linkedin}
