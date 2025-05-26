@@ -6,19 +6,19 @@ const presentations = [
     title: 'Proposal presentation',
     description: 'Initial Presentation with Overview of Research Problem',
     icon: '💡📄',
-    link: 'https://drive.google.com/your-proposal-link',
+    link: 'https://drive.google.com/drive/folders/1Vqmxp5oxcm7QfIIraXKRpwSt1JSapgCK',
   },
   {
     title: 'Progress presentation-1',
     description: '50% Project Completion',
     icon: '📊 1️⃣',
-    link: 'https://drive.google.com/your-progress1-link',
+    link: 'https://drive.google.com/drive/folders/16Bcv5LyfbdxzUIYWWdaPx2kgFUmyEy5-',
   },
   {
     title: 'Progress presentation-2',
     description: '90% Project Completion',
     icon: '📈 2️⃣',
-    link: 'https://drive.google.com/your-progress2-link',
+    link: 'https://drive.google.com/drive/folders/14VDvGBlX3ESCekfgp38agZdOINMKp0Lp',
   },
   {
     title: 'Final presentation',

@@ -7,25 +7,25 @@ const documents = [
     title: 'Project Charter',
     description: 'The document gives the information regarding the statement of scope, objectives overview, an outline of scope, an approximate schedule and people who are participating in a project',
     icon: <FaFileContract className="text-4xl text-blue-500" />,
-    link: 'https://drive.google.com/your-charter-link',
+    link: 'https://drive.google.com/file/d/1JoD2wuO69eGVYkPLUrxpQOYNzeLM2etT/view',
   },
   {
     title: 'Project Proposal',
     description: 'The document contains details like goals, objectives, important dates, milestones and requirements needed to start and complete the project.',
     icon: <FaPenFancy className="text-4xl text-purple-500" />,
-    link: 'https://drive.google.com/your-proposal-link',
+    link: 'https://drive.google.com/drive/folders/1L-HO_XvOGKqnrXWaNjA9DxrVb8A5_7Mf',
   },
   {
     title: 'Research Paper',
     description: 'A research paper contains writing that provides Literature review, Research methodology, analysis, interpretation, and argument based on in-depth independent research',
     icon: <FaBook className="text-4xl text-green-600" />,
-    link: 'https://drive.google.com/your-research-paper-link',
+    link: 'https://drive.google.com/file/d/1OVqXiYeyiGk62NgeVk5ZMALIWf5p8pDj/view',
   },
   {
     title: 'Final Report',
     description: 'The document contains the Proposed solution to the research question, which was finalized after completing the research',
     icon: <FaClipboardList className="text-4xl text-indigo-600" />,
-    link: 'https://drive.google.com/your-thesis-link',
+    link: 'https://drive.google.com/drive/folders/1nHwJHmAGoMbNrLbET9qDt6B7n59_QcU3',
   },
   {
     title: 'Status Document',
@@ -37,7 +37,7 @@ const documents = [
     title: 'Research Logbook',
     description: 'The document describes the progress of the project within the specific time period and compares it against the project plan checklist',
     icon: <FaFileAlt className="text-4xl text-red-500" />,
-    link: 'https://drive.google.com/your-logbook-link',
+    link: 'https://drive.google.com/drive/folders/17QJcnn1dmQaUXhxbu0YBqvtWbutlgO0E?usp=sharing',
   },
 ];
 
