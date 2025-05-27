@@ -24,7 +24,7 @@ const presentations = [
     title: 'Final presentation',
     description: '100% Completion with deployed Solution',
     icon: '🚩💹',
-    link: 'https://drive.google.com/your-final-link',
+    link: 'https://docs.google.com/presentation/d/10pA8GQsHN9h-ia0mUyPZpPLsJHD4-lCb/edit?usp=sharing&ouid=100285945396514649669&rtpof=true&sd=true',
   },
 ];
 
