@@ -9,7 +9,7 @@
 
 @keyframes marquee {
     0%{
-        transfor: translateX(0);
+        transform: translateX(0);
     }
     100%{
         transform: translateX(-50%);
